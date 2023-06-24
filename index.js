@@ -23,6 +23,6 @@ app.use(express.json());
 
 app.use("/api", require("./router/app.route"));
 
-app.listen(8000, () => {
-  console.log("server started on port 8000");
+app.listen(4000, () => {
+  console.log("server started on port 80");
 });
